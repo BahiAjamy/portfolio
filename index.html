@@ -50,19 +50,36 @@
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>Advanced Databases - Implementation of a web-based school management application</li>
-            <li>Econometrics - Determinants of health expenditure in Senegalese households</li>
-            <li>Application - ANSD restaurant management application using Microsoft Access and VBA</li>
-            <!-- Ajouter plus de projets ici -->
-        </ul>
+        <div class="project-card">
+            <h3>Advanced Databases</h3>
+            <p>Implementation of a web-based school management application</p>
+        </div>
+        <div class="project-card">
+            <h3>Econometrics</h3>
+            <p>Determinants of health expenditure in Senegalese households</p>
+        </div>
+        <div class="project-card">
+            <h3>Application</h3>
+            <p>ANSD restaurant management application using Microsoft Access and VBA</p>
+        </div>
     </section>
+    
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:bahi1922@gmail.com">bahi1922@gmail.com</a></p>
-        <p>Phone: +221 771486600/768546600</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/ibrahima-bah-44448b133" target="_blank">Ibrahima BAH</a></p>
+        <form action="https://formspree.io/YOUREMAIL" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
     </section>
+    
     <script src="scripts/main.js"></script>
 </body>
 </html>
