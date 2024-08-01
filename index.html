@@ -3,83 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibrahima BAH - Portfolio</title>
+    <title>Ibrahima BAH - Statistical Engineer & Data Scientist</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>Ibrahima BAH</h1>
-        <p>Statistical Engineer & Data Scientist</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Statistical engineer at ENSAE, specialized in decisional computing. Throughout my professional career, I have accumulated a lot of experience in data collection, data processing, and the elaboration of reports and scientific articles. I am diligent, ambitious, dynamic, multitask, social, able to work under pressure and in a group.</p>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Consultant</h3>
-            <h4>National Agency for Statistics and Demography (ANSD)</h4>
-            <p>Since May 2024 - Dakar, Senegal</p>
+        <nav>
             <ul>
-                <li>Research assistant for the second phase of the Harmonised Survey of Household Living Conditions (“EHCVM-II”).</li>
-                <li>Drafting the poverty report</li>
-                <li>Preparation of the next phase of the poverty survey</li>
-                <li>Development of in-depth analyses of poverty and well-being</li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#intro">INTRO</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
-        </div>
-        <!-- Ajouter plus d'expériences ici -->
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>STATA, R & Shiny, PYTHON, SPSS</li>
-            <li>POWER BI, TABLEAU, SIPINA, TANAGRA</li>
-            <li>SQL, C++, VBA, PHP, JS, HTML</li>
-            <li>ANOVA, Econometrics, Poverty Analysis</li>
-        </ul>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Advanced Databases</h3>
-            <p>Implementation of a web-based school management application</p>
-        </div>
-        <div class="project-card">
-            <h3>Econometrics</h3>
-            <p>Determinants of health expenditure in Senegalese households</p>
-        </div>
-        <div class="project-card">
-            <h3>Application</h3>
-            <p>ANSD restaurant management application using Microsoft Access and VBA</p>
-        </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <form action="https://formspree.io/YOUREMAIL" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Send</button>
-        </form>
-    </section>
-    
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="logo">
+                <h1>IBRAHIMA <span class="highlight">BAH</span></h1>
+            </div>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="intro-text">
+                <p>Welcome to Ibrahima BAH's homepage.</p>
+                <p>I'm a Statistical Engineer and Data Scientist currently working as a Consultant for the National Agency for Statistics and Demography (ANSD).</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn">VIEW PORTFOLIO</a>
+                <a href="#contact" class="btn">CONTACT</a>
+            </div>
+        </section>
+
+        <section id="intro">
+            <h2>About Me</h2>
+            <p>Statistical engineer at ENSAE, specialized in decisional computing. Throughout my professional career, I have accumulated a lot of experience in data collection, data processing and the elaboration of reports and scientific articles. I am diligent, ambitious, dynamic, multitask, social, able to work under pressure and in a group.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Statistical Analysis</li>
+                <li>Data Science</li>
+                <li>Machine Learning</li>
+                <li>Data Visualization</li>
+                <li>Survey Design and Analysis</li>
+                <li>Economic Research</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <!-- Add project cards here -->
+            <div class="project-card">
+                <h3>Poverty Analysis</h3>
+                <p>Conducted in-depth analyses of poverty and well-being for the National Agency for Statistics and Demography (ANSD).</p>
+            </div>
+            <div class="project-card">
+                <h3>Carbon Tax Implementation Study</h3>
+                <p>Assessed CO2 emissions from sectors and products using Energy Balance and SAM for the Consortium for Economic and Social Research (CRES).</p>
+            </div>
+            <!-- Add more project cards as needed -->
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <!-- Add testimonials here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ibrahima BAH. All rights reserved.</p>
+    </footer>
+
     <script src="scripts/main.js"></script>
 </body>
 </html>
