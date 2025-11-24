@@ -13,7 +13,7 @@ const Projects = () => {
 
     const displayedAcademic = showAllAcademic
         ? PROJECTS.academic
-        : PROJECTS.academic.slice(0, 6);
+        : PROJECTS.academic.slice(0, 3);
 
     return (
         <Section id="projects" className="bg-gray-50">
@@ -90,7 +90,7 @@ const Projects = () => {
             {/* Academic Projects */}
             <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-8 flex items-center">
-                    <Wrench className="mr-3 text-blue-600" /> {getTranslation(language, 'projects.academic')}
+                    <Wrench className="mr-3 text-teal-600" /> {getTranslation(language, 'projects.academic')}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {displayedAcademic.map((project, index) => (
@@ -101,9 +101,9 @@ const Projects = () => {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.05 }}
                         >
-                            <Card className="h-full flex flex-col hover:border-blue-600/50 transition-all duration-300">
+                            <Card className="h-full flex flex-col hover:border-teal-600/50 transition-all duration-300">
                                 <div className="mb-3">
-                                    <span className="text-xs text-blue-600 font-medium">
+                                    <span className="text-xs text-teal-600 font-medium">
                                         {project.category}
                                     </span>
                                     <h4 className="text-lg font-bold text-slate-900 mt-1">
@@ -136,11 +136,11 @@ const Projects = () => {
                 </div>
 
                 {/* Show More/Less Button */}
-                {PROJECTS.academic.length > 6 && (
+                {PROJECTS.academic.length > 3 && (
                     <div className="text-center mt-8">
                         <button
                             onClick={() => setShowAllAcademic(!showAllAcademic)}
-                            className="px-6 py-3 bg-white text-slate-700 rounded-lg border-2 border-slate-300 hover:border-blue-600 hover:text-blue-600 transition-all duration-300"
+                            className="px-6 py-3 bg-white text-slate-700 rounded-lg border-2 border-slate-300 hover:border-teal-600 hover:text-teal-600 transition-all duration-300"
                         >
                             {showAllAcademic ? getTranslation(language, 'projects.showLess') : `${getTranslation(language, 'projects.showAll')} ${PROJECTS.academic.length} ${getTranslation(language, 'projects.title')}`}
                         </button>

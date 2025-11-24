@@ -56,7 +56,7 @@ const Certifications = () => {
                                 )}
                             </div>
 
-                            <p className="text-sm text-blue-600 font-medium mb-3">{cert.issuer}</p>
+                            <p className="text-sm text-teal-600 font-medium mb-3">{cert.issuer}</p>
 
                             {cert.description && (
                                 <p className="text-sm text-slate-600 leading-relaxed mb-4 flex-grow">

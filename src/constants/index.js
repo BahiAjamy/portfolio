@@ -121,9 +121,9 @@ export const PROJECTS = {
             name: "Ndaw Wune",
             organization: "ARED",
             period: "Since Nov 2024",
-            description: "Midline evaluation of the Ndaw Wune program. The Ndaw Wune program is a youth economic empowerment intervention implemented in urban and rural areas of Senegal.",
+            description: "Evaluation of the Ndaw Wune ('Success for All') multilingual remedial education program implemented by ARED and funded by the Gates Foundation. The program targets 4,000 grade 2-3 students. Conducting a rigorous impact evaluation and cost-effectiveness analysis with a sample of 1,120 students across 70 schools to inform scale-up.",
             tools: ["ODK", "R", "Stata", "Power BI", "QGIS"],
-            link: null
+            link: "https://ared-edu.org/en/education/"
         },
         {
             name: "FAME Impact Evaluation",
@@ -252,6 +252,14 @@ export const CERTIFICATIONS = [
         location: "Lomé, Togo",
         date: "Oct 2023",
         description: "Using the Harmonized Household Living Standard Survey (EHCVM II). Awarded by World Bank Strengthening Gender Statistics (SGS) Project."
+    },
+    {
+        name: "Gender Responsive Economic Policy Management",
+        issuer: "African Institute for Economic Development and Planning (IDEP)",
+        date: "10 Dec 2024",
+        score: "81.00 %",
+        id: "G3PX074Zmc",
+        description: "Sponsored and Executed by the African Institute for Economic Development and Planning (IDEP), and is certified as a competent person in this area."
     }
 ];
 
