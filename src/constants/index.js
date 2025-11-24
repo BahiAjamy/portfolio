@@ -16,7 +16,7 @@ export const EXPERIENCE = [
         company: "Associates in Research and Education for Development (ARED)",
         location: "Dakar, Senegal",
         period: "Since Nov 2024",
-        description: "Assisted in the implementation and supervision of the monitoring and evaluation system for ARED's programs and projects, particularly the Ndaw Wune program. Lead of the midline evaluation of Ndaw Wune. Collected and analyzed data, managed performance indicators, and produced activity reports. Developed and managed a database for tracking the Ndaw Wune program. Ensured the quality of collected data and monitored the effectiveness of activities. Contributed to sample design and the digitization of data collection tools. Assisted in identifying and designing key indicators for other components of the Gates Program. Produced weekly and monthly reports for activity monitoring."
+        description: "Lead of internal evaluations (baseline, midline, and endline) for ARED's programs. Responsible for designing and implementing the monitoring and evaluation system for the Ndaw Wune program. Collected and analyzed data, managed performance indicators, and produced activity reports. Developed and managed a database for tracking the Ndaw Wune program. Ensured the quality of collected data and monitored the effectiveness of activities. Contributed to sample design and the digitization of data collection tools. Assisted in identifying and designing key indicators for other components of the Gates Program. Produced weekly and monthly reports for activity monitoring."
     },
     {
         role: "Research Assistant",
