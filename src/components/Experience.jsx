@@ -56,19 +56,19 @@ const Experience = () => {
                 {/* Education Column */}
                 <div>
                     <h3 className="text-2xl font-bold text-slate-900 mb-8 flex items-center">
-                        <GraduationCap className="mr-3 text-blue-600" /> {getTranslation(language, 'experience.educationTab')}
+                        <GraduationCap className="mr-3 text-teal-600" /> {getTranslation(language, 'experience.educationTab')}
                     </h3>
                     <div className="space-y-8">
                         {EDUCATION.map((edu, index) => (
                             <Card key={index} className="mb-6">
                                 <div className="flex items-start justify-between mb-1">
-                                    <div className="text-blue-600 font-medium flex-1">{edu.degree}</div>
+                                    <div className="text-teal-600 font-medium flex-1">{edu.degree}</div>
                                     {edu.link && (
                                         <a
                                             href={edu.link}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="text-blue-600 hover:text-blue-700 transition-colors ml-2"
+                                            className="text-teal-600 hover:text-teal-700 transition-colors ml-2"
                                             aria-label={`View certificate for ${edu.degree}`}
                                         >
                                             <ExternalLink size={18} />
