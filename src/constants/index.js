@@ -22,8 +22,8 @@ export const EXPERIENCE = [
         role: "Research Assistant",
         company: "Centre for Economic and Social Research and Development (CRDES)",
         location: "Dakar, Senegal",
-        period: "Nov 2024 - Feb 2025",
-        description: "Conducted a literature review and drafted a policy brief on women's empowerment in male-dominated labor sectors. Organized and facilitated stakeholder engagement meetings with partner organizations, including ASAFIN and CEDAF. Planned and supervised focus group discussions (FGDs) with female vocational students, families, and firms in male-dominated sectors. Drafted a final report summarizing key findings from stakeholder discussions and focus groups."
+        period: "Since Nov 2024",
+        description: "Supporting the FAME impact evaluation (Female Access to Male-dominated Employment), a large-scale RCT conducted by CRDES in collaboration with Stockholm School of Economics, Queen Mary University of London, J-PAL Europe, and research institutions in Luxembourg. Phase 1 (Nov 2024 - Feb 2025): Conducted literature reviews and drafted policy briefs on women's empowerment in male-dominated sectors. Organized stakeholder engagement meetings with ASAFIN and CEDAF. Planned and supervised focus group discussions with female vocational students, families, and firms. Phase 2 (May 2025 - Dec 2026): Leading preparatory work including ethics approvals, sample selection, and survey instrument development. Managing baseline data collection with willingness-to-pay elicitation module. Coordinating intervention implementation with ASAFIN across multiple cohorts. Overseeing follow-up surveys, data cleaning and validation. Conducting statistical analysis and drafting research reports for stakeholder dissemination."
     },
     {
         role: "Senior Research Officer",
