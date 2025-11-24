@@ -257,7 +257,6 @@ export const CERTIFICATIONS = [
         name: "Gender Responsive Economic Policy Management",
         issuer: "African Institute for Economic Development and Planning (IDEP)",
         date: "10 Dec 2024",
-        score: "81.00 %",
         id: "G3PX074Zmc",
         description: "Sponsored and Executed by the African Institute for Economic Development and Planning (IDEP), and is certified as a competent person in this area."
     }
