@@ -7,44 +7,72 @@ export const PERSONAL_INFO = {
     phone: "(+221) 77 148 66 00 / 76 854 66 00",
     location: "Dakar, Senegal",
     linkedin: "https://www.linkedin.com/in/ibrahima-bah-44448b133/",
-    about: "4+ years in poverty & gender analytics, survey design, and impact evaluations (RCT & quasi-exp). Expert in SurveyCTO/ODK, R/Stata, dashboarding (Power BI/Rshiny) and GIS. Strong record leading baselines/midlines, sample & power calculations, and translating evidence into actionable program insights.",
+    about: "5+ years in poverty & gender analytics, survey design, and impact evaluations (RCT & quasi-exp). Expert in SurveyCTO/ODK, R/Stata, dashboarding (Power BI/R Shiny), and GIS. Strong record leading baselines/midlines, sample & power calculations, and translating evidence into actionable program insights.",
 };
+
+export const IMPACT_METRICS = [
+    { key: "scholarships", value: "400", icon: BookOpen },
+    { key: "learners", value: "8,400", icon: Users },
+    { key: "classes", value: "280", icon: Globe },
+    { key: "households", value: "7,200+", icon: Users },
+    { key: "enumerators", value: "170+", icon: Brain },
+    { key: "regions", value: "14", icon: Map },
+];
 
 export const EXPERIENCE = [
     {
         role: "Junior Monitoring and Evaluation Officer",
         company: "Associates in Research and Education for Development (ARED)",
         location: "Dakar, Senegal",
-        period: "Since Nov 2024",
-        description: "Lead of internal evaluations (baseline, midline, and endline) for ARED's programs. Responsible for designing and implementing the monitoring and evaluation system for the Ndaw Wune program. Collected and analyzed data, managed performance indicators, and produced activity reports. Developed and managed a database for tracking the Ndaw Wune program. Ensured the quality of collected data and monitored the effectiveness of activities. Contributed to sample design and the digitization of data collection tools. Assisted in identifying and designing key indicators for other components of the Gates Program. Produced weekly and monthly reports for activity monitoring."
+        period: "Nov 2024 - Present",
+        highlights: [
+            "Pilot the M&E system for Ndaw Wune School Year, delivered in 2024-2025 and currently being implemented again in 2025-2026.",
+            "School-year scope across two cycles (2024-2025 and 2025-2026): 200 classes, 192 schools, 200 tutors, and 6,000 students.",
+            "Vacation cycle 2025 scope tracked: 80 classes, 67 schools, 80 tutors, and 2,400 students; now supporting 2026 vacation preparation.",
+            "Built and maintain KPI reporting workflows for management and field supervisors."
+        ]
     },
     {
         role: "Research Assistant",
         company: "Centre for Economic and Social Research and Development (CRDES)",
         location: "Dakar, Senegal",
-        period: "Since Nov 2024",
-        description: "Supporting the FAME impact evaluation (Female Access to Male-dominated Employment), a large-scale RCT conducted by CRDES in collaboration with Stockholm School of Economics, Queen Mary University of London, J-PAL Europe, and research institutions in Luxembourg. Phase 1 (Nov 2024 - Feb 2025): Conducted literature reviews and drafted policy briefs on women's empowerment in male-dominated sectors. Organized stakeholder engagement meetings with ASAFIN and CEDAF. Planned and supervised focus group discussions with female vocational students, families, and firms. Phase 2 (May 2025 - Dec 2026): Leading preparatory work including ethics approvals, sample selection, and survey instrument development. Managing baseline data collection with willingness-to-pay elicitation module. Coordinating intervention implementation with ASAFIN across multiple cohorts. Overseeing follow-up surveys, data cleaning and validation. Conducting statistical analysis and drafting research reports for stakeholder dissemination."
+        period: "Nov 2024 - Present",
+        highlights: [
+            "Co-implemented FAME, an RCT targeting 400 scholarships for women entering male-dominated trades.",
+            "Co-led phase-2 baseline operations with a Willingness-to-Pay module: survey design/piloting, enumerator training, field deployment, and quality spot checks.",
+            "Coordinated intervention and follow-up preparation across cohorts, including treatment/control tracking and synthesis reports."
+        ]
     },
     {
         role: "Senior Research Officer",
         company: "National Agency for Statistics and Demography (ANSD)",
         location: "Dakar, Senegal",
         period: "May 2024 - Dec 2024",
-        description: "Research assistant for the second and the third phase of the Harmonised Survey of Household Living Conditions (\"EHCVM-II\"). Authored comprehensive poverty report, synthesizing data insights to inform national policies. Conducted in-depth analyses on the dynamics of poverty, on multidimensional poverty and the development of poverty maps to better understand regional disparities and target interventions. Preparation of the next phase of the poverty survey."
+        highlights: [
+            "Contributed to phases 2 and 3 of EHCVM-II and co-authored multidimensional poverty analyses and regional poverty maps.",
+            "Produced analytical notes used to prepare the next national poverty survey cycle and support policy discussions."
+        ]
     },
     {
         role: "Project Manager Assistant",
         company: "nLine",
         location: "Dakar & Kaolack, Senegal",
         period: "Apr 2024 - May 2024",
-        description: "Assisted in managing the logistics and planning for data collection, improving the overall process efficiency. Trained and supervised data collectors, ensuring high-quality data entry. Monitored the data collection progress to ensure compliance with deadlines and quality standards."
+        highlights: [
+            "Managed operational planning and logistics for multi-site data collection activities in Dakar and Kaolack.",
+            "Trained and supervised 18 enumerators, then tracked daily progress against quality and timeline targets."
+        ]
     },
     {
         role: "Junior Research Officer",
         company: "National Agency for Statistics and Demography (ANSD)",
         location: "Dakar, Senegal",
         period: "Jul 2021 - Oct 2023",
-        description: "Research assistant for the second phase of the Harmonised Survey of Household Living Conditions (\"EHCVM-II\"). Logistical management and planning of data collection. Training of data collectors, weekly reporting and drafting of monthly reports. Contributing to data cleansing and analysis for the national poverty report."
+        highlights: [
+            "Supported EHCVM-II phase 2 implementation, including field logistics, team training, and monitoring reports.",
+            "Trained and coordinated 170 enumerators across all 14 regions of Senegal, covering 7,200 households.",
+            "Delivered weekly and monthly monitoring notes and contributed to data-cleaning workflows for the national poverty report."
+        ]
     },
     {
         role: "Consultant",
@@ -83,6 +111,29 @@ export const EXPERIENCE = [
     }
 ];
 
+export const METHODS_HIGHLIGHTS = [
+    {
+        title: "KPI Framework Design and RBM",
+        description: "Define indicators, baselines, targets, and reporting cadence so management and field teams can make fast, evidence-based decisions.",
+        icon: ChartBar
+    },
+    {
+        title: "Survey Operations and Data Quality",
+        description: "Design digital tools, train enumerators, monitor field execution, and run spot checks to secure reliable datasets from the first wave.",
+        icon: Database
+    },
+    {
+        title: "Impact Evaluation Workflow",
+        description: "Operationalize RCT and quasi-experimental studies from sampling and ethics preparation to treatment/control tracking and follow-up design.",
+        icon: Brain
+    },
+    {
+        title: "Policy Reporting and Storytelling",
+        description: "Translate analysis into dashboards, briefs, and actionable recommendations for program managers, donors, and public stakeholders.",
+        icon: BookOpen
+    }
+];
+
 export const EDUCATION = [
     {
         degree: "MicroMaster in Data, Economics, and Design of Policy: International Development",
@@ -117,22 +168,6 @@ export const EDUCATION = [
 
 export const PROJECTS = {
     professional: [
-        {
-            name: "Ndaw Wune",
-            organization: "ARED",
-            period: "Since Nov 2024",
-            description: "Evaluation of the Ndaw Wune ('Success for All') multilingual remedial education program implemented by ARED and funded by the Gates Foundation. The program targets 4,000 grade 2-3 students. Conducting a rigorous impact evaluation and cost-effectiveness analysis with a sample of 1,120 students across 70 schools to inform scale-up.",
-            tools: ["ODK", "R", "Stata", "Power BI", "QGIS"],
-            link: "https://ared-edu.org/en/education/"
-        },
-        {
-            name: "FAME Impact Evaluation",
-            organization: "CRDES",
-            period: "Nov 2024 - Feb 2025",
-            description: "Female Access to Male-dominated Employment - Large-scale RCT evaluating interventions to increase women's participation in male-dominated sectors in Senegal.",
-            tools: ["SurveyCTO", "R", "Stata"],
-            link: null
-        },
         {
             name: "Poverty Mapping and Analysis",
             organization: "ANSD",
@@ -259,6 +294,37 @@ export const CERTIFICATIONS = [
         date: "10 Dec 2024",
         id: "G3PX074Zmc",
         description: "Sponsored and Executed by the African Institute for Economic Development and Planning (IDEP), and is certified as a competent person in this area."
+    }
+];
+
+export const CASE_STUDIES = [
+    {
+        name: "Ndaw Wune Impact Evaluation",
+        organization: "ARED",
+        period: "Nov 2024 - Present",
+        context: "Multilingual remedial education program with two sub-programs: School Year and Vacation cycles.",
+        method: "Led M&E implementation for School Year 2024-2025 and 2025-2026, and supported preparation for Vacation 2026 through planning, tracking frameworks, and monitoring workflows.",
+        results: [
+            "School Year scope delivered across two cycles: 200 classes, 192 schools, 200 tutors, and 6,000 students.",
+            "Vacation 2025 scope tracked: 80 classes, 67 schools, 80 tutors, and 2,400 students.",
+            "Monitoring and reporting cadence established to support implementation decisions and 2026 preparation."
+        ],
+        tools: ["ODK", "R", "Stata", "Power BI", "QGIS"],
+        link: "https://ared-edu.org/en/education/"
+    },
+    {
+        name: "FAME RCT Operations",
+        organization: "CRDES / J-PAL Europe",
+        period: "Nov 2024 - Present",
+        context: "RCT on women's access to male-dominated employment in Senegal, targeting 400 scholarships.",
+        method: "Co-led ethics and sampling preparation, designed and piloted baseline and Willingness-to-Pay instruments, and delivered phase-2 baseline operations.",
+        results: [
+            "Enumerator training and baseline deployment completed with quality spot checks.",
+            "Treatment/control tracking workflow and follow-up cohort plan put in place.",
+            "First-round data cleaning and validation outputs delivered for analysis and reporting."
+        ],
+        tools: ["SurveyCTO", "R", "Stata"],
+        link: null
     }
 ];
 

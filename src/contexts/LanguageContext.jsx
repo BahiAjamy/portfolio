@@ -2,6 +2,16 @@ import React, { createContext, useState, useContext, useEffect } from 'react';
 
 const LanguageContext = createContext();
 
+const getInitialLanguage = () => {
+    if (typeof window === 'undefined') return 'en';
+    try {
+        const saved = window.localStorage.getItem('portfolio-language');
+        return saved === 'fr' ? 'fr' : 'en';
+    } catch {
+        return 'en';
+    }
+};
+
 export const useLanguage = () => {
     const context = useContext(LanguageContext);
     if (!context) {
@@ -11,14 +21,14 @@ export const useLanguage = () => {
 };
 
 export const LanguageProvider = ({ children }) => {
-    const [language, setLanguage] = useState(() => {
-        // Get saved language from localStorage or default to English
-        return localStorage.getItem('portfolio-language') || 'en';
-    });
+    const [language, setLanguage] = useState(getInitialLanguage);
 
     useEffect(() => {
-        // Save language preference to localStorage
-        localStorage.setItem('portfolio-language', language);
+        try {
+            window.localStorage.setItem('portfolio-language', language);
+        } catch {
+            // Ignore storage write errors in restricted/private environments.
+        }
     }, [language]);
 
     const toggleLanguage = () => {

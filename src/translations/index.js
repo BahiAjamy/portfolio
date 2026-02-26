@@ -6,7 +6,8 @@ export const translations = {
             skills: "Skills",
             projects: "Projects",
             certifications: "Certifications",
-            contact: "Contact"
+            contact: "Contact",
+            cta: "Let's Talk"
         },
         hero: {
             portfolio: "Portfolio",
@@ -19,20 +20,46 @@ export const translations = {
                 experience: "Years Experience",
                 certifications: "MITx Certifications",
                 projects: "Projects",
-                accuracy: "Data Accuracy"
+                accuracy: "Data Accuracy",
+                regions: "Regions Covered"
             }
         },
+        proof: {
+            title: "Trusted across public institutions, research organizations, and international evaluation partners."
+        },
+        impact: {
+            title: "Impact Snapshot",
+            subtitle: "Selected delivery and evaluation metrics from recent programs.",
+            scholarships: "Scholarships targeted",
+            learners: "Learners covered in Ndaw Wune cycles",
+            classes: "Classes covered in Ndaw Wune cycles",
+            households: "Households surveyed",
+            regions: "Regions covered",
+            enumerators: "Enumerators deployed",
+            indicators: "KPIs tracked monthly",
+            sites: "Implementation sites",
+            fieldTeams: "Teachers and supervisors coordinated"
+        },
         skills: {
-            title: "Technical Expertise"
+            title: "Technical Expertise",
+            methodsTitle: "Methods in Practice",
+            methodsSubtitle: "How I run monitoring and evaluation work from design to decision."
         },
         experience: {
             title: "Professional Journey",
             experienceTab: "Experience",
-            educationTab: "Education"
+            educationTab: "Education",
+            showOlder: "Show Older Roles",
+            showRecent: "Show Fewer Roles"
         },
         projects: {
             title: "Projects",
-            professional: "Professional Projects",
+            professional: "Other Professional Projects",
+            caseStudies: "Featured Case Studies",
+            caseStudiesSubtitle: "Priority projects with full context, methodology, and measurable outputs.",
+            contextLabel: "Context",
+            methodLabel: "Method",
+            resultsLabel: "Results",
             academic: "Academic Projects",
             showAll: "Show All",
             showLess: "Show Less"
@@ -44,6 +71,9 @@ export const translations = {
             title: "Get In Touch",
             description: "I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
             info: "Contact Information",
+            primaryCta: "Start a Conversation",
+            secondaryCta: "Connect on LinkedIn",
+            quickCta: "Contact Me",
             emailLabel: "Email Me",
             phoneLabel: "Call Me",
             locationLabel: "Location",
@@ -70,7 +100,8 @@ export const translations = {
             skills: "Compétences",
             projects: "Projets",
             certifications: "Certifications",
-            contact: "Contact"
+            contact: "Contact",
+            cta: "Discutons"
         },
         hero: {
             portfolio: "Portfolio",
@@ -83,20 +114,46 @@ export const translations = {
                 experience: "Années d'Expérience",
                 certifications: "Certifications MITx",
                 projects: "Projets",
-                accuracy: "Précision des Données"
+                accuracy: "Précision des Données",
+                regions: "Régions Couvertes"
             }
         },
+        proof: {
+            title: "Références issues d'institutions publiques, d'organisations de recherche et de partenaires internationaux d'évaluation."
+        },
+        impact: {
+            title: "Impact en Chiffres",
+            subtitle: "Indicateurs clés issus des missions récentes de suivi, d'évaluation et d'analyse.",
+            scholarships: "Bourses ciblées",
+            learners: "Apprenants couverts dans les cycles Ndaw Wune",
+            classes: "Classes couvertes dans les cycles Ndaw Wune",
+            households: "Ménages enquêtés",
+            regions: "Régions couvertes",
+            enumerators: "Enquêteurs déployés",
+            indicators: "KPIs suivis mensuellement",
+            sites: "Sites d'implémentation",
+            fieldTeams: "Enseignants et superviseurs coordonnés"
+        },
         skills: {
-            title: "Expertise Technique"
+            title: "Expertise Technique",
+            methodsTitle: "Méthodes Appliquées",
+            methodsSubtitle: "Comment j'exécute les travaux de suivi-évaluation, de la conception à la décision."
         },
         experience: {
             title: "Parcours Professionnel",
             experienceTab: "Expérience",
-            educationTab: "Formation"
+            educationTab: "Formation",
+            showOlder: "Afficher les anciens postes",
+            showRecent: "Afficher moins de postes"
         },
         projects: {
             title: "Projets",
-            professional: "Projets Professionnels",
+            professional: "Autres Projets Professionnels",
+            caseStudies: "Études de Cas Mises en Avant",
+            caseStudiesSubtitle: "Projets prioritaires avec contexte, méthode et résultats mesurables.",
+            contextLabel: "Contexte",
+            methodLabel: "Méthode",
+            resultsLabel: "Résultats",
             academic: "Projets Académiques",
             showAll: "Tout Afficher",
             showLess: "Afficher Moins"
@@ -108,6 +165,9 @@ export const translations = {
             title: "Me Contacter",
             description: "Je suis toujours ouvert à discuter de nouveaux projets, d'idées créatives ou d'opportunités pour faire partie de vos visions.",
             info: "Informations de Contact",
+            primaryCta: "Démarrer une Discussion",
+            secondaryCta: "Se connecter sur LinkedIn",
+            quickCta: "Me Contacter",
             emailLabel: "M'Envoyer un Email",
             phoneLabel: "M'Appeler",
             locationLabel: "Localisation",
