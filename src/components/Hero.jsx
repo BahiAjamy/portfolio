@@ -43,7 +43,7 @@ const Hero = () => {
                             <Button href="#experience">
                                 {getTranslation(language, 'hero.viewWork')} <ArrowRight className="ml-2 w-4 h-4" />
                             </Button>
-                            <Button variant="outline" href="/CV_COMBINE_LV.pdf" download="Ibrahima_BAH_CV.pdf" target="_blank">
+                            <Button variant="outline" href="/CV_IBRAHIMA_BAH.pdf" download="CV_IBRAHIMA_BAH.pdf" target="_blank">
                                 {getTranslation(language, 'hero.downloadCV')} <Download className="ml-2 w-4 h-4" />
                             </Button>
                         </div>
